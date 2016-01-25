@@ -1,4 +1,21 @@
-Ici se trouvent les fichiers de configuration.
+     __  __
+  __/ /_/ /__   WEBSITE - CONFIG & NOTES
+ /_   _   __/
+ _/  //  /_     @vps209101.ovh.net at hennek
+/_  __  __/     System : debian 8.0
+ /_/ /_/        IP : 149.202.57.229 or lionellebon.eu
 
-Mise en place d'un Hooks : post-update sur le VPS pour la mise en production !
-Mise en place de la branche WIP, laquelle n'a pas de hooks de prévu !
+
+JOURNAL :
+- Mise en place d'un Hooks : post-update sur le VPS pour la mise en production !
+- Mise en place de la branche WIP, laquelle n'a pas de hooks de prévu !
+
+Useful command lines :
+    `grunt`
+    `grunt watch`
+    `sass --watch sass:css`
+    `browser-sync start --proxy localhost/vps/web/ --files="**/*.css, **/*.html, **/*.php, **/.htaccess"`
+
+Useless command lines :
+    `sass --version`
+    `compass --version`

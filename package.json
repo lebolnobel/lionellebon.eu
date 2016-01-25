@@ -1,0 +1,20 @@
+{
+  "name": "lionellebon.eu",
+  "version": "0.1.0",
+  "description": "Website of Lionel Lebon",
+  "repository": {
+    "type": "git",
+    "url": "ssh://hennek@vps209101.ovh.net/home/hennek/www.git"
+  },
+  "author": "Hennek",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-imagemin": "^1.0.0",
+    "grunt-contrib-jshint": "^0.12.0",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^3.4.0"
+  }
+}
