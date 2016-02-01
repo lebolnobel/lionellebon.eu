@@ -159,7 +159,7 @@ a.social:after {
 position: relative;
 height: 35rem;
 width: 100%;
-background: transparent url('./assets/img/bg-simple.jpg') no-repeat fixed 50% 100% / cover;">
+background: transparent url('./assets/img/bg-computer.jpg') no-repeat fixed 50% 50% / cover;">
         <div class="cover" style="opacity: 0.05"></div>
         <div style="width: 75rem; padding-top: 2rem; margin: auto;">
             <h1 style="text-align: center;color: #fff; position: inherit;
@@ -206,11 +206,15 @@ background-color: #FFF;">
     </div>
 
     <section style="width: 75rem; margin: 10rem auto 10px;">
+        <h2>Whoami? /</h2>
+
         <p>I ❤ to hack, net neutrality and I do things with code. In my spare time, I think about new ways to use technology to improve the human condition / GPG F1DF1590.</p>
 
 
-        <!--<p>About the author<br />
-        I'm Lionel Lebon. I'm a computer scientist and I'm passionate about the digital and web stuff. I love to hack and I do <a href="" title="">things with code</a>. In my spare time, I think about new ways to use technology to improve the human condition. You can follow me on Twitter <a href="https://twitter.com/hennek_" title="">@Hennek_</a>.</p>-->
+        <h2>Projects? /</h2>
+
+        <p>About the author<br />
+        I'm Lionel Lebon. I'm a computer scientist and I'm passionate about the digital and web stuff. I love to hack and I do <a href="" title="">things with code</a>. In my spare time, I think about new ways to use technology to improve the human condition. You can follow me on Twitter <a href="https://twitter.com/hennek_" title="">@Hennek_</a>.</p>
 
 
         <h2>And now? /</h2>
@@ -251,5 +255,7 @@ background-color: #FFF;">
                 border-radius: 3px;">❤ Made with love</span>
         </div>
     </footer>
+
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
 </body>
 </html>
