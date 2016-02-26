@@ -56,4 +56,244 @@ $large_only: "min-width:"+$large-min;
   Front-End
 ---------------------------------------------------------- */
 
+/* TODO : utiliser SASS */
 
+body {
+    font: 16px "PT Sans", "Open Sans",Helvetica,Arial,sans-serif;
+    color: #666;
+}
+
+header {
+    border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+    position: relative;
+    height: 35rem;
+    width: 100%;
+    background: transparent url('./../img/bg-computer.jpg') no-repeat fixed 50% 50% / cover;
+}
+
+header .cover {
+    opacity: 0.05;
+}
+
+.header-title {
+    width: 75rem;
+    padding-top: 1rem;
+    margin: auto;
+}
+
+.header-title h1 {
+    text-align: center;
+    color: #fff;
+    position: inherit;
+    font-family: 'Lato', 'Centhury Gothic';
+    text-shadow: 2px 2px #333;
+    font-size: 3em;
+    margin-top: 5rem;
+}
+
+.header-title > h1 span {
+    color:#eee;
+    font-style: normal;
+}
+
+.header-title > h1 em {
+    font-weight: 100;
+    color: #aaa;
+}
+
+.header-title > h1 > hr {
+    margin: auto;
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+}
+
+.header-subtitle {
+    display: block;
+    text-align: center;
+    color: #ddd;
+    font-size: 30px;
+}
+
+.header-pic {
+    position: absolute;
+    left: 50%;
+    top: 26rem;
+    margin: 0px 0px 0px -8rem;
+    display: block;
+    width: 16rem;
+    height: 16rem;
+    border: 0.5rem solid #fff;
+    border-radius: 50%;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+section {
+    width: 75rem;
+    margin: 10rem auto 10px;
+}
+
+footer {
+    margin: 5rem auto 0;
+    padding: 5rem 0;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+p {
+    text-align: justify;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #000;
+    text-align: center;
+    margin: 5rem 0 2rem 0;
+}
+
+a, a:visited {
+    position: relative;
+    text-decoration: none;
+    color: #0e0e0e;
+}
+
+a:after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  content: '';
+  background: #666;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+          transition: opacity 0.3s, transform 0.3s;
+  -webkit-transform: translateY(5px);
+      -ms-transform: translateY(5px);
+          transform: translateY(5px);
+}
+
+a:hover:after,
+a:focus:after {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+      -ms-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+a.social {
+    display: inline-block;
+    position: relative;
+
+    border: 1px solid #333;
+    border-radius: 35px 35px 35px 35px;
+    background: none repeat scroll 0 0 #666;
+    transition: background 0.6s ease 0s;
+
+    width: 24px;
+    height: 24px;
+    margin: 0 3px;
+    padding: 6px 3px 0 3px;
+}
+
+a.social:hover, a.social:focus {
+    background: none repeat scroll 0 0 #0e0e0e;
+    outline: medium none;
+}
+
+a.social:after {
+    background: transparent;
+}
+
+.social-network [data-tip]:hover:after {
+    top: 32px;
+    background: transparent;
+}
+
+.social-network [data-tip]:hover:before {
+    top: 28px;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    vertical-align: text-top;
+    background-image: url("./../img/sprite.png");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+
+/* Hack avec margin pour le positionnement. */
+.icon-ico-linkedin { background-position: 0px -52px; }
+.icon-ico-skype { background-position: 0px -68px; margin-top: 1px; }
+.icon-ico-twitter { background-position: 0px -84px; margin-top: 1px; }
+.icon-ico-flickr { background-position: -16px -100px; margin-top: 1px; }
+.icon-ico-github { background-position: 0px -100px; margin-top: 1px; }
+.icon-ico-mail { background-position: 0px -116px; margin-top: 2px; }
+.icon-ico-pgp { background-position: 0px -132px; margin-top: 2px; }
+
+
+.sect-message {
+    margin: 2rem 0 7rem;
+}
+
+.sect-message > p {
+    text-align: center;
+}
+
+.sect-message > p > span {
+    font-size: 0.8em;
+}
+
+.text-small {
+    font-size: 0.8em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-marg {
+    margin: 0 0 1rem;
+}
+
+.pc-50 {
+    width: 50%;
+}
+
+.col-right {
+    float: right;
+}
+
+.col-left {
+    float: left;
+}
+
+.label-block {
+    margin: 0.5rem;
+}
+
+.label {
+    background: rgba(0, 0, 0, 0.08) none repeat scroll 0% 0%;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+@media all and (max-width: 800px) {
+
+    section, .header-title {
+        width: 80%;
+    }
+
+    .header-title hr, .header-title .header-subtitle, .header-title > h1 > em {
+        display: none;
+    }
+
+    .pc-50 {
+        width: 100%;
+        display: block;
+        margin: 2rem 0 7rem;
+        padding: auto;
+    }
+}

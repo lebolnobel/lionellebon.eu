@@ -44,3 +44,32 @@ Useless command lines:
 Some command lines:
     `npm install --save-dev <package>`
     `bower install --save <package>`
+
+
+
+
+
+
+AFTER HEADER
+
+    <div id="header-wrapper" class="fixed-header-wrapper">
+        <div class="fixed-header" >
+
+            <!-- <nav id="main-links" class="main-links" style="display: block; width: 75rem; margin:auto; padding: auto;">
+                <div style="float: right;">
+                    <a href="#header-wrapper" style="margin-left: 2em;">About</a>
+                    <a href="#projects" style="margin-left: 2em;">Projets</a>
+                    <a href="#contact" style="margin-left: 2em;">Me contacter</a>
+                </div>
+                <a href="#header-wrapper" style="margin-right: 2em;">About</a>
+                <a href="#projects" style="margin-right: 2em;">Projets</a>
+                <a href="#contact" style="margin-right: 2em;">Me contacter</a>
+            </nav> -->
+        </div>
+    </div>
+
+
+
+FOOTER
+
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
