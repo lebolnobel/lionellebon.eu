@@ -1,6 +1,0 @@
-node_modules/
-web/assets/.sass-cache/
-*.map
-web/assets/sass/components/
-bower_components/
-web/data/log/log.txt
