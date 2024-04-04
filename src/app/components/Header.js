@@ -2,7 +2,7 @@ import * as React from "react";
 
 export const Header = () => {
   return (
-    <figure className="rounded-xl p-8 dark:bg-slate-800">
+    <figure className="rounded-xl p-8 bg-slate-800">
       <img
         className="w-36 h-36 rounded-full mx-auto"
         src="/assets/img/lionellebon.jpg"
