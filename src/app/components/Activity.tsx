@@ -27,7 +27,7 @@ export const Activity = (props: ActivityType): React.ReactNode => {
           <div className="text-2xl font-bold hover:underline">
             <a href={link}>{title}</a>
           </div>
-          <p className="mt-2">{content}</p>
+          <div className="mt-2">{content}</div>
         </div>
         <div className="flex items-center justify-between mt-4">
           <a href={link} className="hover:underline text-violet-600">

@@ -8,7 +8,6 @@ import { Footer } from './components/Footer.tsx';
 const App = (): React.ReactNode => {
   return (
     <main className="py-6 px-4 sm:p-6 md:py-10 md:px-8">
-      <h1 style={{ display: 'none' }}>Lionel Lebon</h1>
       <Header />
 
       <Title>
@@ -19,15 +18,8 @@ const App = (): React.ReactNode => {
       </Title>
 
       <Activity
-        tag="Développement"
-        title={
-          <div className="leading-none tracking-tight">
-            LinkedIn{' '}
-            <span className="text-sm underline underline-offset-3 decoration-6 decoration-violet-600">
-              En recherche d'emploi
-            </span>
-          </div>
-        }
+        tag="Carrière"
+        title={<div className="leading-none tracking-tight">LinkedIn</div>}
         content={
           <>
             <p>
@@ -67,7 +59,7 @@ const App = (): React.ReactNode => {
       />
 
       <Title>
-        Mes{' '}
+        Mes derniers{' '}
         <span className="underline underline-offset-3 decoration-8 decoration-violet-600">
           projets
         </span>

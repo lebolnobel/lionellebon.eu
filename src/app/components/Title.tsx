@@ -6,6 +6,7 @@ type TitleType = {
 
 export const Title = (props: TitleType): React.ReactNode => {
   const { children } = props;
+
   return (
     <div className="text-gray-800 pt-6">
       <div className="container max-w-4xl px-10 py-6 mx-auto">
