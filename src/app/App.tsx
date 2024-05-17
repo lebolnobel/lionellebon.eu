@@ -71,10 +71,11 @@ const App = (): React.ReactNode => {
         title="Plecotus"
         content={
           <p>
-            Dans le cadre de la formation de Plecotus (chiroptère, aka
-            Chauves-souris), j'ai réalisé une petite application afin de
-            permettre aux étudiants de revoir les critères d'identifications des
-            individus, pendant l'hibernation hivernale.
+            Dans le cadre de la formation de Plecotus (aka Chauves-souris)
+            proposée par Natagora, j'ai réalisé un quiz permettant aux bénévoles
+            de revoir ou d'étudier les critères d'identifications des individus,
+            pendant l'hibernation hivernale. Un outil développé sur le Mémo pour
+            la détermination des chauves-souris en hiver.
           </p>
         }
         link="https://plecotus.netlify.app/"
