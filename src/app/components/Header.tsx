@@ -27,7 +27,7 @@ export const Header = (): React.ReactNode => {
             <div>
               <a
                 href="https://www.instagram.com/lebolnobel"
-                title="Instagram/@lebolnobel"
+                title="instagram/lebolnobel"
                 className="hover:underline text-violet-600"
               >
                 @lebolnobel

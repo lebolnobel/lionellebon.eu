@@ -32,7 +32,7 @@ const App = (): React.ReactNode => {
               Vous pouvez également jeter un œil à mon{' '}
               <a
                 href="https://github.com/lebolnobel"
-                title="Github/lebolnobel"
+                title="github/lebolnobel"
                 className="underline text-violet-600"
               >
                 Github
@@ -71,11 +71,11 @@ const App = (): React.ReactNode => {
         title="Plecotus"
         content={
           <p>
-            Dans le cadre de la formation de Plecotus (aka Chauves-souris)
-            proposée par Natagora, j'ai réalisé un quiz permettant aux bénévoles
-            de revoir ou d'étudier les critères d'identifications des individus,
-            pendant l'hibernation hivernale. Un outil développé sur le Mémo pour
-            la détermination des chauves-souris en hiver.
+            Dans le cadre de la formation de Plecotus proposée par Natagora,
+            j'ai réalisé un quiz permettant aux bénévoles de revoir ou d'étudier
+            les critères d'identifications des Chauves-souris, pendant
+            l'hibernation hivernale. Un outil développé à partir du "Mémo pour
+            la détermination des chauves-souris en hiver".
           </p>
         }
         link="https://plecotus.netlify.app/"
