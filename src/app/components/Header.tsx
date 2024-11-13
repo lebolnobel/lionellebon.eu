@@ -1,12 +1,6 @@
 import * as React from 'react';
 
 export const Header = (): React.ReactNode => {
-  const [enlarged, setEnlarged] = React.useState<boolean>(false);
-
-  const toggleEnlarged = () => {
-    setEnlarged(!enlarged);
-  };
-
   return (
     <>
       <h1 style={{ display: 'none' }}>Lionel Lebon</h1>
@@ -18,8 +12,7 @@ export const Header = (): React.ReactNode => {
           title="Lionel Lebon"
           width="512"
           height="512"
-          className={`w-${enlarged ? '100' : '36'} h-${enlarged ? '100' : '36'} transition-transform transform-growth cursor-pointer rounded-full mx-auto hover:scale-125 duration-1000`}
-          onClick={toggleEnlarged}
+          className={`w-36 h-36 transition-transform transform-growth rounded-full mx-auto hover:scale-125 duration-1000`}
         />
         <div className="pt-6 text-center space-y-4">
           <figcaption className="font-medium">

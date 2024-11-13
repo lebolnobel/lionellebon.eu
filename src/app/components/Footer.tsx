@@ -2,7 +2,7 @@ import * as React from 'react';
 
 export const Footer = (): React.ReactNode => {
   return (
-    <div className="pt-6 text-center text-xs text-gray-900">
+    <div className="pt-12 text-center text-xs text-gray-900">
       Fait avec 🤍 par{' '}
       <a
         href="mailto:me [AT] lionellebon.eu"
