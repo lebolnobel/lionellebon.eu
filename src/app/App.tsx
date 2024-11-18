@@ -48,12 +48,27 @@ const App = (): React.ReactNode => {
         tag="Nature"
         title="Photographe/Naturaliste"
         content={
-          <p>
-            La crise sanitaire liée au COVID m'a permis de développer davantage
-            mes passions pour la nature et le regard qu'on porte sur elle.
-            J'essaie de la sublimer et de sensibiliser un maximum de personnes.
-            Jetez un œil à mes posts et mes stories à la une sur Instagram.
-          </p>
+          <>
+            <p>
+              La crise sanitaire liée au COVID m'a permis de développer
+              davantage mes passions pour la nature et le regard qu'on porte sur
+              elle. J'essaie de la sublimer et de sensibiliser un maximum de
+              personnes. Jetez un œil à mes posts et mes stories à la une sur
+              Instagram.
+            </p>
+
+            <p className="text-sm italic pt-3">
+              Pour voir mes dernières observations, allez sur{' '}
+              <a
+                href="https://observations.be/users/306204/"
+                title="observations.be/lebolnobel"
+                className="underline text-violet-600"
+              >
+                Observations.be
+              </a>
+              .
+            </p>
+          </>
         }
         link="https://www.instagram.com/lebolnobel"
       />
