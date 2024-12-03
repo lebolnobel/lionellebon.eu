@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 type ActivityType = {
-  date?: string;
+  description?: React.ReactNode;
   title: React.ReactNode;
   content: React.ReactNode;
   tag: string;
@@ -9,7 +9,7 @@ type ActivityType = {
 };
 
 export const Activity = (props: ActivityType): React.ReactNode => {
-  const { date, title, content, tag, link } = props;
+  const { description, title, content, tag, link } = props;
 
   return (
     <div className="text-gray-800 pt-6">
@@ -26,7 +26,9 @@ export const Activity = (props: ActivityType): React.ReactNode => {
         </div>
         <div className="mt-8 mb-2">{content}</div>
         <div className="flex items-center justify-between mt-4">
-          {(date && <span className="text-sm text-gray-500">{date}</span>) ||
+          {(description && (
+            <span className="text-sm text-gray-500">{description}</span>
+          )) ||
             '\u00A0'}
           <a href={link} className="hover:underline text-violet-600">
             En savoir plus →

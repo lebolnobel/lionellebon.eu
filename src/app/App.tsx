@@ -81,7 +81,18 @@ const App = (): React.ReactNode => {
       </Title>
 
       <Activity
-        date="2024"
+        description={
+          <p>
+            2024,{' '}
+            <a
+              href="https://github.com/lebolnobel/plecotus-quiz"
+              title="github/lebolnobel"
+              className="underline text-violet-600"
+            >
+              GitHub
+            </a>
+          </p>
+        }
         tag="Nature"
         title="Plecotus"
         content={
@@ -94,6 +105,35 @@ const App = (): React.ReactNode => {
           </p>
         }
         link="https://plecotus.netlify.app/"
+      />
+
+      <Activity
+        description={
+          <p>
+            2025,{' '}
+            <a
+              href="https://github.com/lebolnobel/rainne-obs"
+              title="github/lebolnobel"
+              className="underline text-violet-600"
+            >
+              GitHub
+            </a>
+          </p>
+        }
+        tag="Nature"
+        title="Raînne"
+        content={
+          <p>
+            Chaque année, à partir du mois de février, les batraciens sortent de
+            leur torpeur hivernale pour rejoindre les sites d'accouplement.
+            Selon les endroits, ce sont plusieurs centaines, voire plusieurs
+            milliers, d'individus qui traversent ainsi les routes en direction
+            des mares, des lacs et des étangs. Ces migrations massives ne
+            rendent pas le comptage facile. Cet outil a pour but de simplifier
+            le comptage et l'encodage sur la plateforme Observations.be.
+          </p>
+        }
+        link="https://rainne.netlify.app/"
       />
 
       <Footer />
