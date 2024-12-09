@@ -34,6 +34,7 @@ const App = (): React.ReactNode => {
                 href="https://github.com/lebolnobel"
                 title="github/lebolnobel"
                 className="underline text-violet-600"
+                rel="noopener noreferrer"
               >
                 Github
               </a>{' '}
@@ -63,6 +64,7 @@ const App = (): React.ReactNode => {
                 href="https://observations.be/users/306204/"
                 title="observations.be/lebolnobel"
                 className="underline text-violet-600"
+                rel="noopener noreferrer"
               >
                 Observations.be
               </a>
@@ -88,6 +90,7 @@ const App = (): React.ReactNode => {
               href="https://github.com/lebolnobel/plecotus-quiz"
               title="github/lebolnobel"
               className="underline text-violet-600"
+              rel="noopener noreferrer"
             >
               GitHub
             </a>
@@ -115,6 +118,7 @@ const App = (): React.ReactNode => {
               href="https://github.com/lebolnobel/rainne-obs"
               title="github/lebolnobel"
               className="underline text-violet-600"
+              rel="noopener noreferrer"
             >
               GitHub
             </a>
