@@ -629,8 +629,20 @@ video {
   margin-top: 4rem;
 }
 
+.mb-0\.5 {
+  margin-bottom: 0.125rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .flex {
   display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
 }
 
 .h-36 {

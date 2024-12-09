@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { GoArrowRight } from 'react-icons/go';
 
 type ActivityType = {
   description?: React.ReactNode;
@@ -30,8 +31,14 @@ export const Activity = (props: ActivityType): React.ReactNode => {
             <span className="text-sm text-gray-500">{description}</span>
           )) ||
             '\u00A0'}
+
           <a href={link} className="hover:underline text-violet-600">
-            En savoir plus →
+            En savoir plus
+            <GoArrowRight
+              size="14"
+              role="presentation"
+              className="inline-flex mb-0.5 ml-2"
+            />
           </a>
         </div>
       </div>

@@ -53,7 +53,7 @@ export const Header = (): React.ReactNode => {
           title="instagram/lebolnobel"
           className="text-zinc-400 hover:text-violet-600 transition-colors duration-200"
         >
-          <FaInstagram size="24" />
+          <FaInstagram title="Instagram" size="24" />
         </a>
 
         <a
@@ -62,7 +62,7 @@ export const Header = (): React.ReactNode => {
           title="github/lebolnobel"
           className="text-zinc-400 hover:text-violet-600 transition-colors duration-200"
         >
-          <FaGithub size="24" />
+          <FaGithub title="GitHub" size="24" />
         </a>
 
         <a
@@ -71,7 +71,7 @@ export const Header = (): React.ReactNode => {
           title="LinkedIn/lionellebon"
           className="text-zinc-400 hover:text-violet-600 transition-colors duration-200"
         >
-          <FaLinkedin size="24" />
+          <FaLinkedin title="LinkedIn" size="24" />
         </a>
 
         <a
@@ -80,7 +80,7 @@ export const Header = (): React.ReactNode => {
           title="Contactez-moi"
           className="text-zinc-400 hover:text-violet-600 transition-colors duration-200"
         >
-          <FaEnvelope size="24" />
+          <FaEnvelope title="Mail" size="24" />
         </a>
       </div>
     </div>
