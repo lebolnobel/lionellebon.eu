@@ -47,15 +47,16 @@ const App = (): React.ReactNode => {
 
       <Activity
         tag="Nature"
-        title="Photographe/Naturaliste"
+        title="Photographe"
         content={
           <>
             <p>
               La crise sanitaire liée au COVID m'a permis de développer
               davantage mes passions pour la nature et le regard qu'on porte sur
               elle. J'essaie de la sublimer et de sensibiliser un maximum de
-              personnes. Jetez un œil à mes posts et mes stories à la une sur
-              Instagram.
+              personnes. Je fais également de nombreux reportages sur le terrain
+              ou pour des événements. Jetez un œil à mes posts et mes stories à
+              la une sur Instagram.
             </p>
 
             <p className="text-sm italic pt-3">
@@ -73,6 +74,18 @@ const App = (): React.ReactNode => {
           </>
         }
         link="https://www.instagram.com/lebolnobel"
+      />
+
+      <Activity
+        tag="Nature"
+        title="Naturaliste/Candidat Guide-Nature"
+        content={
+          <p>
+            A partir de 2025, je serai officiellement Candidat Guide-Nature, une
+            formation organisée par les Cercles des Naturalistes de Belgique.
+          </p>
+        }
+        link="https://cercles-naturalistes.be/guide-nature/"
       />
 
       <Title>
