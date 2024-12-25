@@ -22,13 +22,13 @@ const App = (): React.ReactNode => {
         title={<div className="leading-none tracking-tight">LinkedIn</div>}
         content={
           <>
-            <p>
+            <p className="mb-3">
               Retrouvez l'ensemble de mes activités courantes et passées ainsi
               que mes formations sur LinkedIn. N'hésitez pas à prendre contact
               avec moi pour discuter de vos projets !
             </p>
 
-            <p className="text-sm italic pt-3">
+            <p className="text-sm italic">
               Vous pouvez également jeter un œil à mon{' '}
               <a
                 href="https://github.com/lebolnobel"
@@ -46,20 +46,49 @@ const App = (): React.ReactNode => {
       />
 
       <Activity
-        tag="Nature"
+        tag="Activité"
         title="Photographe"
         content={
+          <p>
+            Chaque instant mérite d’être immortalisé et je ne cesse d’être à
+            l’affût de ces moments : un regard ou un sourire qui raconte une
+            histoire. Je profite également de mon œil pour sensibiliser la
+            nature à mon entourage, à travers mes posts Instagram ou mes stories
+            (<em>à la une</em>). Je fais également de nombreux reportages sur le
+            terrain ou pour des événements.
+          </p>
+        }
+        link="https://www.instagram.com/lebolnobel"
+      />
+
+      <Activity
+        tag="Nature"
+        title="Naturaliste/Candidat Guide-Nature"
+        content={
           <>
-            <p>
+            <p className="mb-3">
               La crise sanitaire liée au COVID m'a permis de développer
-              davantage mes passions pour la nature et le regard qu'on porte sur
-              elle. J'essaie de la sublimer et de sensibiliser un maximum de
-              personnes. Je fais également de nombreux reportages sur le terrain
-              ou pour des événements. Jetez un œil à mes posts et mes stories à
-              la une sur Instagram.
+              davantage ma passion pour la nature et le regard qu'on porte sur
+              elle. Depuis lors, je suis bénévole actif chez Natagora, et tout
+              particulièrement auprès du Pôle Plecotus (Chauves-souris) et du
+              Pôle Raînne (batraciens).
             </p>
 
-            <p className="text-sm italic pt-3">
+            <p className="mb-3">
+              A partir de 2025, je serai officiellement{' '}
+              <a
+                href="https://cercles-naturalistes.be/guide-nature/"
+                title="CNB.be"
+                className="underline text-violet-600"
+                rel="noopener noreferrer"
+              >
+                Candidat Guide-Nature
+              </a>
+              , une formation organisée par les Cercles des Naturalistes de
+              Belgique.
+            </p>
+
+            <p className="text-sm italic">
               Pour voir mes dernières observations, allez sur{' '}
               <a
                 href="https://observations.be/users/306204/"
@@ -73,19 +102,7 @@ const App = (): React.ReactNode => {
             </p>
           </>
         }
-        link="https://www.instagram.com/lebolnobel"
-      />
-
-      <Activity
-        tag="Nature"
-        title="Naturaliste/Candidat Guide-Nature"
-        content={
-          <p>
-            A partir de 2025, je serai officiellement Candidat Guide-Nature, une
-            formation organisée par les Cercles des Naturalistes de Belgique.
-          </p>
-        }
-        link="https://cercles-naturalistes.be/guide-nature/"
+        link="https://www.natagora.be"
       />
 
       <Title>

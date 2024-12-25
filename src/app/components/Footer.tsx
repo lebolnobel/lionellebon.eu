@@ -8,8 +8,9 @@ export const Footer = (): React.ReactNode => {
         Fait avec <GoHeart role="presentation" className="inline-flex mb-0.5" />{' '}
         par{' '}
         <a
-          href="mailto:me [AT] lionellebon.eu"
-          title="Contactez-moi!"
+          href="https://www.instagram.com/lebolnobel"
+          rel="noopener noreferrer"
+          title="instagram/lebolnobel"
           className="hover:underline text-violet-600"
         >
           Lionel Lebon
