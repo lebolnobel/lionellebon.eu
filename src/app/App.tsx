@@ -7,7 +7,7 @@ import { Footer } from './components/Footer.tsx';
 
 const App = (): React.ReactNode => {
   return (
-    <main className="py-6 px-4 sm:p-6 md:py-10 md:px-8">
+    <main className="text-base py-6 px-4 sm:p-6 md:py-10 md:px-8">
       <Header />
 
       <Title>

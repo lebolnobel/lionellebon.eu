@@ -20,9 +20,9 @@ export const Activity = (props: ActivityType): React.ReactNode => {
             <a href={link}>{title}</a>
           </div>
           {tag && (
-            <span className="px-2 py-1 font-bold rounded bg-violet-300 text-violet-900">
+            <div className="px-2 py-1 font-bold rounded text-violet-900 bg-gradient-to-r from-violet-300 to-violet-200">
               {tag}
-            </span>
+            </div>
           )}
         </div>
         <div className="mt-8 mb-4">{content}</div>
