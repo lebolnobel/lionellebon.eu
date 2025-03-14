@@ -15,7 +15,7 @@
     "reset": "rm -rf node_modules/ && rm package-lock.json && npm i && npm audit fix",
     "start": "vite",
     "tsc": "npx tsc",
-    "upgrade": "npm update --save && npm update --save-dev --save",
+    "upgrade": "npm update --save && npm update --save-dev",
     "watch-css": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/styles.css --watch"
   },
   "dependencies": {
