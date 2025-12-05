@@ -3,7 +3,7 @@ import { GoHeart } from 'react-icons/go';
 
 export const Footer = (): React.ReactNode => {
   return (
-    <div className="pt-12 text-center text-xs text-gray-900">
+    <footer className="pb-8 px-4 md:px-8 text-center text-sm text-gray-900">
       <p>
         Fait avec <GoHeart role="presentation" className="inline-flex mb-0.5" />{' '}
         par{' '}
@@ -11,12 +11,15 @@ export const Footer = (): React.ReactNode => {
           href="https://www.instagram.com/lebolnobel"
           rel="noopener noreferrer"
           title="instagram/lebolnobel"
-          className="hover:underline text-violet-600"
         >
           Lionel Lebon
         </a>
       </p>
-      <p>Réalisé avec des technologies libres</p>
-    </div>
+      <p>
+        Réalisé avec des technologies libres,
+        <br />
+        au service du vivant.
+      </p>
+    </footer>
   );
 };

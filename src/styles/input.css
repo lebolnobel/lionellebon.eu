@@ -9,3 +9,10 @@ html {
 body {
   background: #efefef;
 }
+
+/* See also https://tailwindcss.com/docs/adding-custom-styles */
+@layer components {
+  a {
+    @apply underline text-green-900 focus:outline-none focus:ring-2 focus:ring-green-900;
+  }
+}
