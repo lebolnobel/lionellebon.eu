@@ -17,9 +17,10 @@ const App = (): React.ReactNode => {
           <div className="container max-w-4xl px-10 pt-10 pb-8 mx-auto bg-gray-50 border-gray-100 rounded-2xl shadow-sm">
             <p className="mb-3">Explorer, observer, transmettre.</p>
             <p className="mb-3">
-              Passionné par la biodiversité, j’explore les milieux naturels,
-              documente les espèces, conçois des outils pédagogiques et
-              contribue à des projets mettant en valeur le vivant.
+              Curieux et passionné par la photo et la biodiversité, j’explore
+              les milieux naturels, documente les espèces, conçois des outils
+              pédagogiques et contribue à des projets mettant en valeur le
+              vivant.
             </p>
             <p>
               Basé en Wallonie, en Belgique. Actif au sein de Natagora
@@ -93,7 +94,7 @@ const App = (): React.ReactNode => {
               </p>
 
               <p className="mb-3">
-                A partir de 2025, je serai officiellement{' '}
+                Depuis 2025, je suis officiellement{' '}
                 <a
                   href="https://cercles-naturalistes.be/guide-nature/"
                   title="CNB.be"

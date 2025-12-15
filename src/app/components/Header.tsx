@@ -8,10 +8,10 @@ export const Header = (): React.ReactNode => {
       <div className="absolute inset-0 bg-gradient-to-b from-[#dfdfdf] to-[#efefef]"></div>
 
       <div className="relative text-lg text-center">
-        <div className="py-4">
+        <div className="pt-8 md:pt-16">
           <h1 style={{ display: 'none' }}>Lionel Lebon</h1>
 
-          <figure className="rounded-xl m-8 bg-transparent">
+          <figure className="rounded-xl my-8 bg-transparent">
             <img
               id="lionellebon"
               src="/assets/img/lionellebon.webp"
@@ -19,7 +19,7 @@ export const Header = (): React.ReactNode => {
               title="Lionel Lebon"
               width="512"
               height="512"
-              className="w-36 h-36 transition-transform transform-growth rounded-full mx-auto hover:scale-125 duration-1000"
+              className="w-48 h-48 transition-transform transform-growth rounded-full mx-auto hover:scale-125 duration-1000"
             />
 
             <figcaption className="font-medium mt-12">
@@ -37,10 +37,12 @@ export const Header = (): React.ReactNode => {
                   1000,
                   'Photographe',
                   1000,
+                  'Lionel Lebon',
+                  1000,
                 ]}
                 wrapper="div"
                 speed={22}
-                repeat={Infinity}
+                repeat={0}
                 className="text-4xl font-extrabold text-slate-900"
               />
             </figcaption>
