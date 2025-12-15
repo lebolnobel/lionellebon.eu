@@ -4,4 +4,4 @@
 
 Here is the source code of my personal portfolio.
 
-Feel free to reach me.
+Feel free to browse my other projects.
