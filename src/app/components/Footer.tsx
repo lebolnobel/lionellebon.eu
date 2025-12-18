@@ -3,7 +3,7 @@ import { GoHeart } from 'react-icons/go';
 
 export const Footer = (): React.ReactNode => {
   return (
-    <footer className="pb-8 px-4 md:px-8 text-center text-sm text-gray-900">
+    <footer className="mt-4 pb-8 px-4 md:px-8 text-center text-sm text-gray-900">
       <p>
         Fait avec <GoHeart role="presentation" className="inline-flex mb-0.5" />{' '}
         par{' '}

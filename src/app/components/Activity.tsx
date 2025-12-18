@@ -27,10 +27,10 @@ export const Activity = (props: ActivityType): React.ReactNode => {
         )}
       </div>
       <div className="mt-8 mb-4">{content}</div>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between mt-8 md:mt-0">
         {(description && (
-          <span className="text-base text-gray-500">{description}</span>
-        )) || <span></span>}
+          <div className="text-base text-gray-500">{description}</div>
+        )) || <div></div>}
 
         <a href={link} className="no-underline hover:underline">
           En savoir plus

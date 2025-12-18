@@ -10,7 +10,7 @@ const App = (): React.ReactNode => {
     <>
       <Header />
 
-      <main className="text-gray-800 text-lg p-8">
+      <main className="text-gray-800 text-lg p-4 md:p-8">
         <section id="about">
           <Title>
             A <span className="title-emphasis">propos</span>
@@ -147,7 +147,7 @@ const App = (): React.ReactNode => {
           <Activity
             description={
               <p>
-                2024 - Aujourd'hui,{' '}
+                2024 - Auj.,{' '}
                 <a
                   href="https://github.com/lebolnobel/plecotus-quiz"
                   title="github/lebolnobel"
@@ -174,7 +174,7 @@ const App = (): React.ReactNode => {
           <Activity
             description={
               <p>
-                2025 - Aujourd'hui,{' '}
+                2025 - Auj.,{' '}
                 <a
                   href="https://github.com/lebolnobel/rainne-obs"
                   title="github/lebolnobel"
