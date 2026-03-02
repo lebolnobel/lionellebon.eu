@@ -194,7 +194,7 @@ const App = (): React.ReactNode => {
                 voire plusieurs milliers, d'individus qui traversent ainsi les
                 routes en direction des mares, des lacs et des étangs. Ces
                 migrations massives ne rendent pas le comptage facile. Cet outil
-                a pour but de simplifier le comptage et l'encodage sur la
+                a pour but de simplifier le comptage en vue de l'encodage sur la
                 plateforme Observations.be.
               </p>
             }
